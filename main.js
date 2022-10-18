@@ -53,7 +53,7 @@ function success(position) {
 		.addTo(map);
 
 	var img2 = document.querySelector("#gateway")
-	// Crear un marcador del Gateway de la India, Mumbai y añadirlo al mapa.
+	// Crear un marcador del Entrada de la India, Mumbai y añadirlo al mapa.
 	var marker2 = new mapboxgl.Marker({
 		element: img2
 	})
@@ -61,7 +61,7 @@ function success(position) {
 		.addTo(map);
 
 	var img3 = document.querySelector("#gate")
-	// Crear un marcador del India Gate, Mumbai y añadirlo al mapa.
+	// Crear un marcador de la Puerta de la India, Mumbai y añadirlo al mapa.
 	var marker3 = new mapboxgl.Marker({
 		element: img3
 	})
