@@ -53,7 +53,7 @@ function success(position) {
 		.addTo(map);
 
 	var img2 = document.querySelector("#gateway")
-	// Crear un marcador del Entrada de la India, Mumbai y añadirlo al mapa.
+	// Crear un marcador de la Entrada de la India, Mumbai y añadirlo al mapa.
 	var marker2 = new mapboxgl.Marker({
 		element: img2
 	})
